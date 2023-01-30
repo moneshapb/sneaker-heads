@@ -25,3 +25,97 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+body{
+
+
+    background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+
+color: navy;
+border-radius: 0.75em;
+background-image: linear-gradient(red,purple);
+text-decoration: underline;
+font-family: papyrus;
+box-shadow: 5px 5px 9px plum;
+width: 600px;
+position: relative;
+left: 30%;
+text-align: center;
+
+
+}
+
+#jordans-1{
+
+        height: 20%;
+        border: rgb(58, 25, 204) ;
+        box-shadow: 5px 5px 9px rgb(16, 33, 192);
+        align-items: center;
+}
+
+
+
+#jordans-2{
+
+    height: 20%;
+    border: rgb(231, 30, 3) ;
+    box-shadow: 5px 5px 9px rgb(226, 5, 5);
+    align-items: center;
+}
+
+
+div #jordans-1-desc{
+
+background-color: skyblue;
+color: white ;
+font-weight: bold;
+font-family: 'Courier New', Courier, monospace;
+width: 565px;
+border: 5px solid crimson;
+padding: 20px;
+margin:10px;
+border-radius: 0.75em;
+
+
+
+}
+
+
+
+div #jordans-2-desc{
+
+
+    background-color: crimson;
+    color: white ;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    width: 565px;
+    border: 5px solid forestgreen;
+    padding: 20px;
+    margin:10px;
+    border-radius: 0.75em;
+    align-items: center;
+}
+
+
+ div #row1-section1, #row1-section2{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+ }
+
+ div #row2-section1, #row2-section2{
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+ 
+     }
+
+
